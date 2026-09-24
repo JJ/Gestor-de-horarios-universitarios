@@ -6,3 +6,4 @@
 - Marco Calvo [@marcocugr](https://github.com/marcocugr)
 -  Fernando Vazquez [@fervzaquezi](https://github.com/fervazquezi)
 - Javier Peinado Pérez [@jmaquinitas](https://github.com/jpeiperugr)
+- Juan Luis Sánchez Sequera [@jlsanseq](https://github.com/jlsanseq)
