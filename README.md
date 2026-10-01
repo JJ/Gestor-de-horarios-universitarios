@@ -15,3 +15,6 @@ Los lenguajes de programación pensados para usar en el desarrollo del proyecto 
 - CSS
 - TypeScript
 - SQL
+
+## Logo Aplicación
+![](Logo.png)
