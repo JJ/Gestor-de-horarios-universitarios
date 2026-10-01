@@ -9,3 +9,4 @@
 - Juan Luis Sánchez Sequera [@jlsanseq](https://github.com/jlsanseq)
 - Alicia Lozano Alcántara [@alozanoa](https://github.com/alozanoa)
 - Claudia Martínez ISaac [@claudiaa2112](https://github.com/claudiaa2112/)
+- Lucía Martín Ramiro [@luciamarmiro] (https://github.com/luciamarmiro).
