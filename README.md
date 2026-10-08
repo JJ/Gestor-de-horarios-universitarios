@@ -16,5 +16,12 @@ Los lenguajes de programación pensados para usar en el desarrollo del proyecto 
 - TypeScript
 - SQL
 
+
+## Contribuidores
+[Lista Contribuidores](./Contribuidores.md)
+
 ## Logo Aplicación
 ![](Logo.png)
+
+
+
