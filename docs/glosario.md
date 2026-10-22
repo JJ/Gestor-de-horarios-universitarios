@@ -14,11 +14,11 @@ Objetos:
   Si un grado es de 240 créditos compondrá 4 cursos, y si es de 300 créditos compondrá 5 cursos.
   Tipo: objeto de valor. "2º" no tiene identidad propia; dos cursos con el mismo número son el mismo.
   
-- Matriula: Una matrícula es el resultado del proceso de inscripción de un alumno en un curso acádemico dado un grado. 
+- Matrícula: Una matrícula es el resultado del proceso de inscripción de un alumno en un curso académico dado un grado. 
   Tipo: agregado (raíz). Agrupa las asignaturas, grupos y subgrupos elegidos por un alumno; sobre ese conjunto se detectan las colisiones.
   Atributos: código de matrícula.
   
-- Grupo: Conjunto de alumnos matriculados en el mismo curso que imparten las clases de teoría de una asignatura.
+- Grupo: Conjunto de alumnos matriculados en el mismo curso que reciben las clases de teoría de una asignatura.
   Tipo: entidad. El grupo A de una asignatura sigue siendo el mismo aunque cambie su horario.
 
 - Grado: Titulación oficial de una enseñaza superior que se imparte en una Universidad.
@@ -30,7 +30,7 @@ Objetos:
 - Colisión: Es el resultado de que dos subgrupos, un subgrupo y un grupo, o dos grupos coincidan en el mismo día y hora legal.
   Tipo: objeto de valor. Es un resultado calculado; si se recalcula con los mismos datos, es la misma colisión.
   
-- Campus: Conjunto de universidades donde se dan grados universitarios relacionados.
+- Campus: Recinto de una universidad en el que se encuentran una o varias facultades o escuelas donde se imparten grados.
   Tipo: objeto de valor. Solo nos interesa su nombre y ubicación; no cambia ni tiene ciclo de vida.
 
 - Hora legal: Una hora con la restriccción de legal el aquella que esta dentro de los siguientes intervalos de tiempo, de 8:00-14:30 y de 15:30 a 21:30.
