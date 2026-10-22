@@ -27,7 +27,7 @@ Objetos:
 - Subgrupo: Un subgrupo es un conjunto de alumnos de un grupo, es decir, aquel que tiene la restricción de pertenecer a un grupo y que se imparte dentro de una hora legal, dando enseñanza de la parte práctica de una asignatura.
   Tipo: entidad. El subgrupo A1 sigue siendo el mismo aunque cambie su hora legal.
   
-- Colisión: Es el resultado de un solapamiento entre dos subgrupos, un subgrupo y un grupo, o dos grupos.
+- Colisión: Es el resultado de que dos subgrupos, un subgrupo y un grupo, o dos grupos coincidan en el mismo día y hora legal.
   Tipo: objeto de valor. Es un resultado calculado; si se recalcula con los mismos datos, es la misma colisión.
   
 - Campus: Conjunto de universidades donde se dan grados universitarios relacionados.
