@@ -10,7 +10,7 @@ Objetos:
   Tipo: entidad. Se identifica por su código; aunque cambie su horario sigue siendo la misma asignatura.
   Atributos: código de asignatura, profesor que imparte la asignatura, cŕeditos asignados, horas lectivas, guia docente.
   
-- Curso: Año acádemico de un Grado, tiene la restricción de establecerse los cursos según los crréditos del grado.
+- Curso: Año acádemico de un Grado, tiene la restricción de establecerse los cursos según los créditos del grado.
   Si un grado es de 240 créditos compondrá 4 cursos, y si es de 300 créditos compondrá 5 cursos.
   Tipo: objeto de valor. "2º" no tiene identidad propia; dos cursos con el mismo número son el mismo.
   
