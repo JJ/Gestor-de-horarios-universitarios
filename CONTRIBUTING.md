@@ -72,3 +72,15 @@ Examples:
 - `[HU001] No sé a qué clases de la universidad tengo que ir, a qué hora ni a dónde`
 - `[IN005] Establecimiento nomenclatura PR`
 - `[DV001] Implementar una nueva funcionalidad`
+
+## Milestone naming
+
+Milestones must follow a consistent naming format:
+
+`[MX]: Brief description of the product content`
+
+The description should summarize the scope or content covered by the milestone.
+
+Example:
+
+`[M00]: Preparación base`
