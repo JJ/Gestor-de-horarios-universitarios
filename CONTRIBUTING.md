@@ -38,3 +38,37 @@ Example:
 `Closes #7`
 
 GitHub closing keywords should be used in pull request descriptions so that issues are automatically closed when the pull request is merged into the repository's default branch.
+
+## Issue labels
+
+Issues must use labels to identify their purpose and help organize project work.
+
+The following labels and their meanings are established:
+
+- `user-story`: issues representing user stories, needs or problems from the user's perspective.
+- `internal-config`: internal repository organization and configuration, including naming conventions, collaborators, Kanban and repository structure.
+- `development`: issues directly related to developing product functionality or components.
+- `documentation`: tasks focused on documenting concepts, decisions or domain knowledge.
+- `tech-stack`: decisions concerning the technology stack, including languages, versions and technologies.
+- `tools`: selection or configuration of development tools, dependency managers and code quality tools.
+
+### Issue prefixes
+
+Issue prefixes must correspond to their associated labels:
+
+| Prefix | Label | Purpose |
+| --- | --- | --- |
+| `HU` | `user-story` | User stories |
+| `IN` | `internal-config` | Internal configuration |
+| `DV` | `development` | Product development |
+| `DC` | `documentation` | Documentation |
+| `TS` | `tech-stack` | Technology stack |
+| `TL` | `tools` | Development tools |
+
+Issues should retain their assigned identifiers and use a concise, descriptive title.
+
+Examples:
+
+- `[HU001] No sé a qué clases de la universidad tengo que ir, a qué hora ni a dónde`
+- `[IN005] Establecimiento nomenclatura PR`
+- `[DV001] Implementar una nueva funcionalidad`
