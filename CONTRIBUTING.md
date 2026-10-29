@@ -1,5 +1,11 @@
 
-## Branch naming
+# Contributing
+
+## 1. General guidelines
+
+This document defines the conventions for contributing to **Gestor-de-horarios-universitarios**. All contributors should follow these conventions to keep the repository consistent, organized and easy to maintain.
+
+## 2. Branch naming
 
 Branches must have a recognizable prefix that identifies their purpose, followed by a short description using hyphens to separate words.
 
@@ -17,7 +23,7 @@ Examples:
 
 Branch names should clearly communicate the purpose of the work.
 
-## Pull request naming
+## 3. Pull request naming
 
 Pull request titles must clearly describe the purpose of the proposed changes.
 
@@ -39,7 +45,7 @@ Example:
 
 GitHub closing keywords should be used in pull request descriptions so that issues are automatically closed when the pull request is merged into the repository's default branch.
 
-## Issue labels
+## 4. Issue labels
 
 Issues must use labels to identify their purpose and help organize project work.
 
@@ -52,7 +58,7 @@ The following labels and their meanings are established:
 - `tech-stack`: decisions concerning the technology stack, including languages, versions and technologies.
 - `tools`: selection or configuration of development tools, dependency managers and code quality tools.
 
-### Issue prefixes
+### 4.1. Issue prefixes
 
 Issue prefixes must correspond to their associated labels:
 
@@ -73,7 +79,7 @@ Examples:
 - `[IN005] Establecimiento nomenclatura PR`
 - `[DV001] Implementar una nueva funcionalidad`
 
-## Milestone naming
+## 5. Milestone naming
 
 Milestones must follow a consistent naming format:
 
@@ -84,3 +90,17 @@ The description should summarize the scope or content covered by the milestone.
 Example:
 
 `[M00]: Preparación base`
+
+## 6. General contribution workflow
+
+Before submitting a contribution:
+
+1. Identify the issue associated with the work, when applicable.
+2. Create a branch using the appropriate naming prefix.
+3. Implement the changes within the scope of the issue.
+4. Review the changes before submitting them.
+5. Create a pull request with a descriptive title and an explanation of the changes.
+6. Reference the associated issue using a GitHub closing keyword in the pull request description when the work resolves that issue.
+7. Select the correct base branch for the pull request.
+
+Contributors should keep changes focused, follow the established conventions and ensure that the purpose of each branch and pull request is clear.
