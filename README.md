@@ -10,11 +10,7 @@ El producto buscaría tambien analizar estos horarios por subgrupos, por dobles 
 ### Apartado técnico
 
 Los lenguajes de programación pensados para usar en el desarrollo del proyecto serán:
-- JavaScript
-- HTML
-- CSS
-- SQL
-- Python para la extracción de datos
+- Python
 
 
 ## Contribuidores
