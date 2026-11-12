@@ -160,26 +160,3 @@ def extraer_columnas_y_desdobles(pagina):
             filas.append({"franja": franja["etiqueta"], "dias": dias})
         resultados.append({**tabla, "franjas": filas})
     return resultados
-
-
-def main(ruta_pdf):
-    with pdfplumber.open(ruta_pdf) as documento:
-        for numero, pagina in enumerate(documento.pages[:11], start=1):
-            tablas = extraer_columnas_y_desdobles(pagina)
-            print(f"Página {numero}: {len(tablas)} tablas")
-            for indice, tabla in enumerate(tablas, start=1):
-                print(f"  Cuatrimestre {indice}:")
-                for columna in tabla["columnas"]:
-                    print(f"    {columna['nombre']:12} {columna['x0']:7.2f} → {columna['x1']:7.2f}")
-                for fila in tabla["franjas"]:
-                    resumen = ", ".join(
-                        f"{dia}={info['numero_desdobles']}"
-                        for dia, info in fila["dias"].items()
-                    )
-                    print(f"    {fila['franja']}: {resumen}")
-
-
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        raise SystemExit("Uso: python src/extraccion/columnas.py ruta/al/pdf")
-    main(Path(sys.argv[1]))
