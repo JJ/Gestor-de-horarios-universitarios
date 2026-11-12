@@ -9,7 +9,7 @@ El producto buscaría tambien analizar estos horarios por subgrupos, por dobles 
 
 ### Apartado técnico
 
-Los lenguajes de programación pensados para usar en el desarrollo del proyecto serán:
+Los lenguajes de programación utilizados en este proyecto:
 - Python
 
 
