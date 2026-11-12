@@ -13,7 +13,6 @@ Los lenguajes de programación pensados para usar en el desarrollo del proyecto 
 - JavaScript
 - HTML
 - CSS
-- TypeScript
 - SQL
 - Python para la extracción de datos
 
