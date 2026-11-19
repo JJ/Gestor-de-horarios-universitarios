@@ -19,22 +19,3 @@ body:
       description: Explica por qué es necesaria esta tarea.
     validations:
       required: true
-
-  - type: textarea
-    id: task
-    attributes:
-      label: Qué hay que hacer
-      description: Describe el trabajo concreto.
-    validations:
-      required: true
-
-  - type: textarea
-    id: closure
-    attributes:
-      label: Criterio de cierre
-      description: Añade una lista de comprobaciones que permitan cerrar el issue.
-      placeholder: |
-        - [ ] Primera condición
-        - [ ] Segunda condición
-    validations:
-      required: true
